@@ -7,7 +7,7 @@ JRE=java runtime environment (Provide all facility to run java program easily)
 3. JVM (java virtual machine, it is plateform dependent but it makes the java program to platefom independent)
 
 
-java program run krne k baad ek .class file generate hogi that will be PLATEFORM INDEPENDENT
+java program run krne k baad ek .class(that is being called BYTE CODE) file generate hogi that will be PLATEFORM INDEPENDENT
 Thus java is PLATEFORM INDEPENDENT
 */
 
