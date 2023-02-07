@@ -2,6 +2,8 @@
 IDE=Syntax analyser+compiler+run (Integrated development Environment)
 JRE=java runtime environment (Provide all facility to run java program easily)
 
+Java has 52 keywords
+
 1. JDK (Java development kit, it is plateform dependent, it will run automatically)
 2. Compiler (JDK as well as )
 3. JVM (java virtual machine, it is plateform dependent but it makes the java program to platefom independent)
