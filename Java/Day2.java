@@ -15,7 +15,7 @@ b.)Faculty M5, F7 are proffesor and their duties can't be exceed more than two d
 
 */
 
-import java.utill.*;
+import java.util.*;
 
 public class Main
 {
