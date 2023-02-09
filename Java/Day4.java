@@ -1,5 +1,3 @@
-
-
 /*
 Find the address of a student who got second highest marks 
 
@@ -14,11 +12,11 @@ public class Main
    int rollNo;
     int DAA_marks;
     int coa;
-    Main objArray[]=new Main[5];
+   
   
     
 	public static void main(String[] args) {
-	
+	 Main objArray[]=new Main[5];
 	for(int i=0;i<5;i++){
 	    objArray[i]=new Main();   //now we have 100 contagious memory location
     
@@ -46,7 +44,7 @@ public class Main
 	objArray[4].DAA_marks=78;
 	objArray[4].address="Mathura";
 	
-	 Arrays.sort(objArray[n].DAA_marks);
+	 Arrays.sort(objArray[].DAA_marks);
 	 	System.out.println("Second highest student's address is:  "+ objArray[3].address);
 	
 	Main st1=new Main(); //new because it will allocate memory 
@@ -58,6 +56,10 @@ public class Main
 	
 	System.out.println("Sudent 1 name is "+ st1.name);
 	System.out.println("Sudent 1 name is "+ st1.name);
-		
+	
+	
+	
+	
+	
 	}
 }
