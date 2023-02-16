@@ -4,10 +4,13 @@ Static will be called only at statis variable and methods... because static allo
 
 CONSTRUCTOR: 
 
+In every class of java there exist empty constructor.
+and if we manipulate it it will be called Overloading
 
 
 
 */
+
 import java.util.*;
 public class Main
 {
