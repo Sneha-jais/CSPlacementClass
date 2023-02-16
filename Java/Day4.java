@@ -57,9 +57,5 @@ public class Main
 	System.out.println("Sudent 1 name is "+ st1.name);
 	System.out.println("Sudent 1 name is "+ st1.name);
 	
-	
-	
-	
-	
 	}
 }
