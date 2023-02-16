@@ -1,14 +1,14 @@
 
-
 import java.util.*;
 public class Main
 {
     String name;
     int id = 101;
-    long tax;
-    long sal;
-    long IncomeTax(int sal)
+    
+    double sal;
+    static double IncomeTax(double sal)
     {
+        double tax;
         
         if(sal<300000)
         {
@@ -39,7 +39,7 @@ public class Main
 	        System.out.println("enter the ID of emp:");
 	        o[i].id = input.nextInt();
 	        System.out.println("enter the sal of emp:");
-	        o[i].sal = input.nextLong();
+	        o[i].sal = input.nextDouble();
 	    }
 	    System.out.println("enter the ID of emp for which u wnt the tax:");
 	    int value = input.nextInt();
@@ -47,11 +47,10 @@ public class Main
 	    {
 	        if(value == o[i].id)
 	        {
-	            long temp = IncomeTax(o[i].sal);
+	            double temp = IncomeTax(o[i].sal);
 	            System.out.println("The tax: "+temp);
 	        }
 	    }
 	
 	}
 }
-
