@@ -5,10 +5,13 @@ Static will be called only at statis variable and methods... because static allo
 CONSTRUCTOR: 
 
 In every class of java there exist empty constructor.
-and if we manipulate it it will be called Overloading
+and if we manipulate it, it will be called Overloading
+
+we can define more than one method with same name/// called polymorphism
 
 
 
+we can run a while loop in code maximum----jitni ram ki memory h
 */
 
 import java.util.*;
@@ -16,8 +19,15 @@ public class Main
 {
     String name;
     int id = 101;
-    
     double sal;
+	
+	IT(){
+	}
+	IT(String org_name,int org_pid,long org_sal){
+	this.name=name	
+		
+	}
+	
     static double IncomeTax(double sal)
     {
         double tax;
