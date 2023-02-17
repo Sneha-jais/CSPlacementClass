@@ -1,7 +1,4 @@
-
-
 #include <iostream>
-
 using namespace std;
 
 int terSearch(int arr[], int l,int h,int x){
