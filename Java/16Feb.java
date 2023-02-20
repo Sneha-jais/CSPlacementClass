@@ -9,8 +9,6 @@ and if we manipulate it, it will be called Overloading
 
 we can define more than one method with same name/// called polymorphism
 
-
-
 we can run a while loop in code maximum----jitni ram ki memory h
 */
 
