@@ -1,14 +1,12 @@
 /*
+
 Javac----> filename.java to filename.class
 Static will be called only at statis variable and methods... because static allocate the memory at only class level
-
 CONSTRUCTOR: 
-
 In every class of java there exist empty constructor.
 and if we manipulate it, it will be called Overloading
 
 we can define more than one method with same name/// called polymorphism
-
 we can run a while loop in code maximum----jitni ram ki memory h
 */
 
